@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F0F5D31588A22600F7B549 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F0F5D21588A22600F7B549 /* UIKit.framework */; };
+		09F0F5D51588A22600F7B549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F0F5D41588A22600F7B549 /* Foundation.framework */; };
+		09F0F5D71588A22600F7B549 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F0F5D61588A22600F7B549 /* CoreGraphics.framework */; };
+		09F0F5DD1588A22600F7B549 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09F0F5DB1588A22600F7B549 /* InfoPlist.strings */; };
+		09F0F5DF1588A22600F7B549 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0F5DE1588A22600F7B549 /* main.m */; };
+		09F0F5E31588A22600F7B549 /* TVPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0F5E21588A22600F7B549 /* TVPAppDelegate.m */; };
+		09F0F5E61588A22600F7B549 /* TVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0F5E51588A22600F7B549 /* TVPViewController.m */; };
+		09F0F5E91588A22600F7B549 /* TVPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F0F5E71588A22600F7B549 /* TVPViewController.xib */; };
+		09F0F5F11588A22600F7B549 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F0F5F01588A22600F7B549 /* SenTestingKit.framework */; };
+		09F0F5F21588A22600F7B549 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F0F5D21588A22600F7B549 /* UIKit.framework */; };
+		09F0F5F31588A22600F7B549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F0F5D41588A22600F7B549 /* Foundation.framework */; };
+		09F0F5FB1588A22600F7B549 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09F0F5F91588A22600F7B549 /* InfoPlist.strings */; };
+		09F0F5FE1588A22600F7B549 /* TVPareserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0F5FD1588A22600F7B549 /* TVPareserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09F0F5F41588A22600F7B549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09F0F5C51588A22500F7B549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F0F5CD1588A22500F7B549;
+			remoteInfo = TVPareser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F0F5CE1588A22600F7B549 /* TVPareser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVPareser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F0F5D21588A22600F7B549 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09F0F5D41588A22600F7B549 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09F0F5D61588A22600F7B549 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09F0F5DA1588A22600F7B549 /* TVPareser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVPareser-Info.plist"; sourceTree = "<group>"; };
+		09F0F5DC1588A22600F7B549 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09F0F5DE1588A22600F7B549 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09F0F5E01588A22600F7B549 /* TVPareser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TVPareser-Prefix.pch"; sourceTree = "<group>"; };
+		09F0F5E11588A22600F7B549 /* TVPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVPAppDelegate.h; sourceTree = "<group>"; };
+		09F0F5E21588A22600F7B549 /* TVPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVPAppDelegate.m; sourceTree = "<group>"; };
+		09F0F5E41588A22600F7B549 /* TVPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVPViewController.h; sourceTree = "<group>"; };
+		09F0F5E51588A22600F7B549 /* TVPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVPViewController.m; sourceTree = "<group>"; };
+		09F0F5E81588A22600F7B549 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TVPViewController.xib; sourceTree = "<group>"; };
+		09F0F5EF1588A22600F7B549 /* TVPareserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVPareserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F0F5F01588A22600F7B549 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		09F0F5F81588A22600F7B549 /* TVPareserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVPareserTests-Info.plist"; sourceTree = "<group>"; };
+		09F0F5FA1588A22600F7B549 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09F0F5FC1588A22600F7B549 /* TVPareserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVPareserTests.h; sourceTree = "<group>"; };
+		09F0F5FD1588A22600F7B549 /* TVPareserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVPareserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09F0F5CB1588A22500F7B549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F0F5D31588A22600F7B549 /* UIKit.framework in Frameworks */,
+				09F0F5D51588A22600F7B549 /* Foundation.framework in Frameworks */,
+				09F0F5D71588A22600F7B549 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F0F5EB1588A22600F7B549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F0F5F11588A22600F7B549 /* SenTestingKit.framework in Frameworks */,
+				09F0F5F21588A22600F7B549 /* UIKit.framework in Frameworks */,
+				09F0F5F31588A22600F7B549 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F0F5C31588A22500F7B549 = {
+			isa = PBXGroup;
+			children = (
+				09F0F5D81588A22600F7B549 /* TVPareser */,
+				09F0F5F61588A22600F7B549 /* TVPareserTests */,
+				09F0F5D11588A22600F7B549 /* Frameworks */,
+				09F0F5CF1588A22600F7B549 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09F0F5CF1588A22600F7B549 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09F0F5CE1588A22600F7B549 /* TVPareser.app */,
+				09F0F5EF1588A22600F7B549 /* TVPareserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09F0F5D11588A22600F7B549 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09F0F5D21588A22600F7B549 /* UIKit.framework */,
+				09F0F5D41588A22600F7B549 /* Foundation.framework */,
+				09F0F5D61588A22600F7B549 /* CoreGraphics.framework */,
+				09F0F5F01588A22600F7B549 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09F0F5D81588A22600F7B549 /* TVPareser */ = {
+			isa = PBXGroup;
+			children = (
+				09F0F5E11588A22600F7B549 /* TVPAppDelegate.h */,
+				09F0F5E21588A22600F7B549 /* TVPAppDelegate.m */,
+				09F0F5E41588A22600F7B549 /* TVPViewController.h */,
+				09F0F5E51588A22600F7B549 /* TVPViewController.m */,
+				09F0F5E71588A22600F7B549 /* TVPViewController.xib */,
+				09F0F5D91588A22600F7B549 /* Supporting Files */,
+			);
+			path = TVPareser;
+			sourceTree = "<group>";
+		};
+		09F0F5D91588A22600F7B549 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09F0F5DA1588A22600F7B549 /* TVPareser-Info.plist */,
+				09F0F5DB1588A22600F7B549 /* InfoPlist.strings */,
+				09F0F5DE1588A22600F7B549 /* main.m */,
+				09F0F5E01588A22600F7B549 /* TVPareser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09F0F5F61588A22600F7B549 /* TVPareserTests */ = {
+			isa = PBXGroup;
+			children = (
+				09F0F5FC1588A22600F7B549 /* TVPareserTests.h */,
+				09F0F5FD1588A22600F7B549 /* TVPareserTests.m */,
+				09F0F5F71588A22600F7B549 /* Supporting Files */,
+			);
+			path = TVPareserTests;
+			sourceTree = "<group>";
+		};
+		09F0F5F71588A22600F7B549 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09F0F5F81588A22600F7B549 /* TVPareserTests-Info.plist */,
+				09F0F5F91588A22600F7B549 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09F0F5CD1588A22500F7B549 /* TVPareser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F0F6011588A22600F7B549 /* Build configuration list for PBXNativeTarget "TVPareser" */;
+			buildPhases = (
+				09F0F5CA1588A22500F7B549 /* Sources */,
+				09F0F5CB1588A22500F7B549 /* Frameworks */,
+				09F0F5CC1588A22500F7B549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVPareser;
+			productName = TVPareser;
+			productReference = 09F0F5CE1588A22600F7B549 /* TVPareser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09F0F5EE1588A22600F7B549 /* TVPareserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F0F6041588A22600F7B549 /* Build configuration list for PBXNativeTarget "TVPareserTests" */;
+			buildPhases = (
+				09F0F5EA1588A22600F7B549 /* Sources */,
+				09F0F5EB1588A22600F7B549 /* Frameworks */,
+				09F0F5EC1588A22600F7B549 /* Resources */,
+				09F0F5ED1588A22600F7B549 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F0F5F51588A22600F7B549 /* PBXTargetDependency */,
+			);
+			name = TVPareserTests;
+			productName = TVPareserTests;
+			productReference = 09F0F5EF1588A22600F7B549 /* TVPareserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09F0F5C51588A22500F7B549 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = nothing;
+			};
+			buildConfigurationList = 09F0F5C81588A22500F7B549 /* Build configuration list for PBXProject "TVPareser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09F0F5C31588A22500F7B549;
+			productRefGroup = 09F0F5CF1588A22600F7B549 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09F0F5CD1588A22500F7B549 /* TVPareser */,
+				09F0F5EE1588A22600F7B549 /* TVPareserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09F0F5CC1588A22500F7B549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F0F5DD1588A22600F7B549 /* InfoPlist.strings in Resources */,
+				09F0F5E91588A22600F7B549 /* TVPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F0F5EC1588A22600F7B549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F0F5FB1588A22600F7B549 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09F0F5ED1588A22600F7B549 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F0F5CA1588A22500F7B549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F0F5DF1588A22600F7B549 /* main.m in Sources */,
+				09F0F5E31588A22600F7B549 /* TVPAppDelegate.m in Sources */,
+				09F0F5E61588A22600F7B549 /* TVPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F0F5EA1588A22600F7B549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F0F5FE1588A22600F7B549 /* TVPareserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09F0F5F51588A22600F7B549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F0F5CD1588A22500F7B549 /* TVPareser */;
+			targetProxy = 09F0F5F41588A22600F7B549 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09F0F5DB1588A22600F7B549 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F0F5DC1588A22600F7B549 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09F0F5E71588A22600F7B549 /* TVPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F0F5E81588A22600F7B549 /* en */,
+			);
+			name = TVPViewController.xib;
+			sourceTree = "<group>";
+		};
+		09F0F5F91588A22600F7B549 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F0F5FA1588A22600F7B549 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09F0F5FF1588A22600F7B549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09F0F6001588A22600F7B549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09F0F6021588A22600F7B549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVPareser/TVPareser-Prefix.pch";
+				INFOPLIST_FILE = "TVPareser/TVPareser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09F0F6031588A22600F7B549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVPareser/TVPareser-Prefix.pch";
+				INFOPLIST_FILE = "TVPareser/TVPareser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		09F0F6051588A22600F7B549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TVPareser.app/TVPareser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVPareser/TVPareser-Prefix.pch";
+				INFOPLIST_FILE = "TVPareserTests/TVPareserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		09F0F6061588A22600F7B549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TVPareser.app/TVPareser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVPareser/TVPareser-Prefix.pch";
+				INFOPLIST_FILE = "TVPareserTests/TVPareserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09F0F5C81588A22500F7B549 /* Build configuration list for PBXProject "TVPareser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F0F5FF1588A22600F7B549 /* Debug */,
+				09F0F6001588A22600F7B549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F0F6011588A22600F7B549 /* Build configuration list for PBXNativeTarget "TVPareser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F0F6021588A22600F7B549 /* Debug */,
+				09F0F6031588A22600F7B549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09F0F6041588A22600F7B549 /* Build configuration list for PBXNativeTarget "TVPareserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F0F6051588A22600F7B549 /* Debug */,
+				09F0F6061588A22600F7B549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09F0F5C51588A22500F7B549 /* Project object */;
+}
